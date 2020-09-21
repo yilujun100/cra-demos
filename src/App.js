@@ -11,7 +11,12 @@ import HookPage from './pages/HookPage';
 import CustomHookPage from './pages/CustomHookPage';
 import UseMemoPage from './pages/UseMemoPage';
 import UseCallbackPage from './pages/UseCallbackPage';
+import RefDemo from './demos/ref';
+import ForwardRefDemo from './demos/forward-ref';
+import ContextDemo from './demos/context';
 import Hoc from "./demos/Hoc";
+import MyForm from './demos/antd-form';
+import Dialog from './demos/dialog';
 import "antd/dist/antd.css";
 
 function App() {
@@ -36,9 +41,14 @@ function App() {
             {/* <HookPage /> */}
             {/* <CustomHookPage /> */}
             {/* <UseMemoPage /> */}
-            <UseCallbackPage />
+            {/* <UseCallbackPage /> */}
+			{/* <RefDemo /> */}
+			{/* <ForwardRefDemo /> */}
+			{/* <ContextDemo /> */}
 			{/* Hoc-高阶组件 */}
 			{/* <Hoc /> */}
+			{/* <MyForm /> */}
+			<Dialog />
 		</div>
 	);
 }
