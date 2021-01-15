@@ -17,6 +17,7 @@ import ContextDemo from './demos/context';
 import Hoc from "./demos/Hoc";
 import MyForm from './demos/antd-form';
 import Dialog from './demos/dialog';
+import MyRedux from './demos/my-redux';
 import "antd/dist/antd.css";
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
 			{/* Hoc-高阶组件 */}
 			{/* <Hoc /> */}
 			{/* <MyForm /> */}
-			<Dialog />
+			{/* <Dialog /> */}
+            <MyRedux />
 		</div>
 	);
 }
