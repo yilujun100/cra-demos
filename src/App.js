@@ -17,6 +17,7 @@ import ContextDemo from './demos/context';
 import Hoc from "./demos/Hoc";
 import MyForm from './demos/antd-form';
 import Dialog from './demos/dialog';
+import Counter from './demos/when-to-useMemo-and-useCallback';
 import MyRedux from './demos/my-redux';
 import "antd/dist/antd.css";
 
@@ -50,6 +51,8 @@ function App() {
 			{/* <Hoc /> */}
 			{/* <MyForm /> */}
 			{/* <Dialog /> */}
+            {/* 什么时候使用 useCallback 和 useMemo */}
+            {/* <Counter /> */}
             <MyRedux />
 		</div>
 	);
