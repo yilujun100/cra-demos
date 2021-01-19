@@ -21,6 +21,7 @@ import Counter from './demos/when-to-useMemo-and-useCallback';
 import MyRedux from './demos/my-redux';
 import "antd/dist/antd.css";
 import ReactReduxPage from './demos/my-react-redux/ReactReduxPage'
+import MyReactRouterDom from './demos/my-react-router-dom/RouterPage'
 
 function App() {
     const [ num, setNum ] = useState(0)
@@ -57,8 +58,10 @@ function App() {
             {/* <Counter /> */}
             {/* <MyRedux /> */}
             {/* react-redux 学习 */}
-			<button onClick={() => setNum(num + 1)}>change num {num}</button>
-			<ReactReduxPage num={num} />
+			{/* <button onClick={() => setNum(num + 1)}>change num {num}</button>
+			<ReactReduxPage num={num} /> */}
+            {/* react-router-dom analysis */}
+            <MyReactRouterDom />
 		</div>
 	);
 }
